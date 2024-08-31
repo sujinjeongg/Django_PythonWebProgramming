@@ -1,30 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="108cbd37-29f9-4a72-830a-71967cea379e" name="Changes" comment="" />
+    <list default="true" id="108cbd37-29f9-4a72-830a-71967cea379e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_change_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marker/templates/marker/marker_change_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marker/templates/marker/marker_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marker/templates/marker/marker_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive_day.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_day.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive_month.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_month.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_year.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/taggit/taggit_cloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/taggit/taggit_cloud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/taggit/taggit_post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/taggit/taggit_post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/marker/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marker/templates/marker/marker_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/marker/templates/marker/marker_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marker/templates/marker/marker_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/marker/templates/marker/marker_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marker/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/marker/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marker/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/marker/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/templates/photo/album_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/templates/photo/album_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/templates/photo/album_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/templates/photo/album_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/templates/photo/photo_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/templates/photo/photo_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/password_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/password_change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register_done.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sujinjeongg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sujinjeongg/Django_PythonWebProgramming.git&quot;,
+    &quot;accountId&quot;: &quot;c5f2a5d0-0ea5-4e68-b5e2-eea7f3d7273b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2jlvQrsYhTwyO6pICYeRuMg4dJu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.bookmarkRun.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/bookmark&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;xml.catalog&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Python.bookmarkRun">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="bookmark" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (bookmark)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bookmarkRun" type="PythonConfigurationType" factoryName="Python">
+      <module name="bookmark" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (bookmark)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\user\PycharmProjects\bookmark" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.bookmarkRun" />
+    </list>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,5 +167,8 @@
       <updated>1721974465819</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
